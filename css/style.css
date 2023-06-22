@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ae0c6de-9d36-47a5-baef-e342e725f2cd/deey2ux-2838e3f3-7c56-4354-89b8-fdccb8b84d80.jpg/v1/fill/w_1065,h_750,q_70,strp/kengan_ashura_by_donarxniite_deey2ux-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzlhZTBjNmRlLTlkMzYtNDdhNS1iYWVmLWUzNDJlNzI1ZjJjZFwvZGVleTJ1eC0yODM4ZTNmMy03YzU2LTQzNTQtODliOC1mZGNjYjhiODRkODAuanBnIiwiaGVpZ2h0IjoiPD05MDIiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC85YWUwYzZkZS05ZDM2LTQ3YTUtYmFlZi1lMzQyZTcyNWYyY2RcL2RvbmFyeG5paXRlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.c9cr9kExhGbw8gXhVUDGH8WYLs37F-vasyehAhTjFkk");
+    background-size: cover;
+}
+
+#grid-container {
+    position: relative;
+
+}
+
+table {
+    margin-top: 130px;
+    border-collapse: collapse;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    overflow-y: hidden;
+    border: 5px solid rgb(84, 1, 1);
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+
+}
+
+td.clicked {
+    background-color: rgba(204, 4, 4, 0.6);
+}
+
+button {
+    position: absolute;
+    top: 50px;
+    left: 475px;
+    margin: 20px;
+    width: 250px;
+
+}
+
+.controls-container {
+    margin-bottom: 20px;
+}
+
+
+.h1-container {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 500px;
+    top: 60px;
+}   
